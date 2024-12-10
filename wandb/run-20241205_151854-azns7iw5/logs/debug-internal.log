@@ -1,0 +1,19 @@
+{"time":"2024-12-05T15:18:54.6800914+01:00","level":"INFO","msg":"using version","core version":"0.18.7"}
+{"time":"2024-12-05T15:18:54.6800914+01:00","level":"INFO","msg":"created symlink","path":"C:\\Users\\shaun\\Documents\\Projects\\CNN_Model\\wandb\\run-20241205_151854-azns7iw5\\logs\\debug-core.log"}
+{"time":"2024-12-05T15:18:54.9921257+01:00","level":"INFO","msg":"created new stream","id":"azns7iw5"}
+{"time":"2024-12-05T15:18:54.9940241+01:00","level":"INFO","msg":"stream: started","id":"azns7iw5"}
+{"time":"2024-12-05T15:18:54.9940241+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"azns7iw5"}
+{"time":"2024-12-05T15:18:54.9940241+01:00","level":"INFO","msg":"sender: started","stream_id":"azns7iw5"}
+{"time":"2024-12-05T15:18:54.9940241+01:00","level":"INFO","msg":"handler: started","stream_id":"azns7iw5"}
+{"time":"2024-12-05T15:18:55.3793993+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-05T15:25:47.9188305+01:00","level":"INFO","msg":"stream: closing","id":"azns7iw5"}
+{"time":"2024-12-05T15:25:47.9188305+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-05T15:25:47.9198308+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-05T15:25:48.1182956+01:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-12-05T15:25:48.1182956+01:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-12-05T15:25:48.1182956+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-05T15:25:48.551222+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-05T15:25:48.7994175+01:00","level":"INFO","msg":"handler: closed","stream_id":"azns7iw5"}
+{"time":"2024-12-05T15:25:48.7994175+01:00","level":"INFO","msg":"sender: closed","stream_id":"azns7iw5"}
+{"time":"2024-12-05T15:25:48.7994175+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"azns7iw5"}
+{"time":"2024-12-05T15:25:48.7999633+01:00","level":"INFO","msg":"stream: closed","id":"azns7iw5"}

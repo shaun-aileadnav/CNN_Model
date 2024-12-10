@@ -1,0 +1,97 @@
+Epoch 0
+Validation Loss: 0.24826496288409244
+Epoch 1
+Validation Loss: 0.18505471448153016
+Epoch 2
+Validation Loss: 0.16546057734996011
+Epoch 3
+Validation Loss: 0.15429943175273866
+Epoch 4
+Validation Loss: 0.14616558351336656
+Epoch 5
+Validation Loss: 0.138187970800172
+Epoch 6
+Validation Loss: 0.13148923351133274
+Epoch 7
+Validation Loss: 0.12655028353383724
+Epoch 8
+Validation Loss: 0.12449525103173924
+Epoch 9
+Validation Loss: 0.12522730248683647
+Epoch 10
+Validation Loss: 0.12116022069544476
+Epoch 11
+Validation Loss: 0.12005306936434243
+Epoch 12
+Validation Loss: 0.12309665034291474
+Epoch 13
+Validation Loss: 0.12580378710224582
+Epoch 14
+Validation Loss: 0.13000268323600192
+Epoch 15
+Validation Loss: 0.1301352121117694
+Epoch 16
+Validation Loss: 0.12967620631177082
+Epoch 17
+Validation Loss: 0.12645858320175565
+Epoch 18
+Validation Loss: 0.1277358075150074
+Epoch 19
+Validation Loss: 0.12701782117915786
+Epoch 20
+Validation Loss: 0.12844524557094078
+Epoch 21
+Validation Loss: 0.12915791521716025
+Epoch 22
+Validation Loss: 0.130524225710936
+Epoch 23
+Validation Loss: 0.13133557230921591
+Epoch 24
+Validation Loss: 0.13200400987848623
+Epoch 25
+Validation Loss: 0.13264983120838944
+Epoch 26
+Validation Loss: 0.13317949664094922
+Epoch 27
+Validation Loss: 0.13378825522145432
+Epoch 28
+Validation Loss: 0.13442211403961338
+Epoch 29
+Validation Loss: 0.13505055708018215
+Epoch 30
+Validation Loss: 0.1358711862992953
+Epoch 31
+Validation Loss: 0.1366123361053399
+Epoch 32
+Validation Loss: 0.13721988090298468
+Epoch 33
+Validation Loss: 0.13798500824310936
+Epoch 34
+Validation Loss: 0.13867252106262395
+Epoch 35
+Validation Loss: 0.13942839717509367
+Epoch 36
+Validation Loss: 0.1400386401738779
+Epoch 37
+Validation Loss: 0.1407521985464119
+Epoch 38
+Validation Loss: 0.14145382761858355
+Epoch 39
+Validation Loss: 0.14198846469469867
+Traceback (most recent call last):
+  File "c:\Users\shaun\Documents\Projects\CNN_Model\Neuralnet.py", line 135, in <module>
+    new()
+  File "c:\Users\shaun\Documents\Projects\CNN_Model\Neuralnet.py", line 98, in new
+    plt.plot(epoch_data, loss_data, label='Training Loss')
+  File "C:\Users\shaun\miniconda3\envs\project\Lib\site-packages\matplotlib\pyplot.py", line 3794, in plot
+    return gca().plot(
+           ^^^^^^^^^^^
+  File "C:\Users\shaun\miniconda3\envs\project\Lib\site-packages\matplotlib\axes\_axes.py", line 1779, in plot
+    lines = [*self._get_lines(self, *args, data=data, **kwargs)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shaun\miniconda3\envs\project\Lib\site-packages\matplotlib\axes\_base.py", line 296, in __call__
+    yield from self._plot_args(
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\shaun\miniconda3\envs\project\Lib\site-packages\matplotlib\axes\_base.py", line 486, in _plot_args
+    raise ValueError(f"x and y must have same first dimension, but "
+ValueError: x and y must have same first dimension, but have shapes (40,) and (384000,)

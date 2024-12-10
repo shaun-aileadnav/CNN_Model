@@ -1,0 +1,98 @@
+Epoch 0
+Validation Loss: 0.25706035822476037
+Epoch 1
+Validation Loss: 0.16900372302490616
+Epoch 2
+Validation Loss: 0.13759631437453304
+Epoch 3
+Validation Loss: 0.1223286207978623
+Epoch 4
+Validation Loss: 0.11284852458776018
+Epoch 5
+Validation Loss: 0.1122844348221149
+Epoch 6
+Validation Loss: 0.11141366075057135
+Epoch 7
+Validation Loss: 0.11232196075752413
+Epoch 8
+Validation Loss: 0.10854372322255613
+Epoch 9
+Validation Loss: 0.110394511183732
+Epoch 10
+Validation Loss: 0.109162646607799
+Epoch 11
+Validation Loss: 0.11090210682498475
+Epoch 12
+Validation Loss: 0.11351800396363766
+Epoch 13
+Validation Loss: 0.11337771718343018
+Epoch 14
+Validation Loss: 0.11511836605551326
+Epoch 15
+Validation Loss: 0.11625149892614911
+Epoch 16
+Validation Loss: 0.1178842085330209
+Epoch 17
+Validation Loss: 0.11951046437896813
+Epoch 18
+Validation Loss: 0.11864100252950098
+Epoch 19
+Validation Loss: 0.11925048705997075
+Epoch 20
+Validation Loss: 0.11990078777138985
+Epoch 21
+Validation Loss: 0.11944898559280924
+Epoch 22
+Validation Loss: 0.11940003060854183
+Epoch 23
+Validation Loss: 0.12014789722618525
+Epoch 24
+Validation Loss: 0.12078458154752472
+Epoch 25
+Validation Loss: 0.12152606195725153
+Epoch 26
+Validation Loss: 0.12225574911865315
+Epoch 27
+Validation Loss: 0.1229405893033122
+Epoch 28
+Validation Loss: 0.1238353744169963
+Epoch 29
+Validation Loss: 0.12445532362155336
+Epoch 30
+Validation Loss: 0.1252423469271795
+Epoch 31
+Validation Loss: 0.12583940410315828
+Epoch 32
+Validation Loss: 0.12651088775101735
+Epoch 33
+Validation Loss: 0.12718914434380219
+Epoch 34
+Validation Loss: 0.1277732212670968
+Epoch 35
+Validation Loss: 0.1283183811036213
+Epoch 36
+Validation Loss: 0.1289074990023206
+Epoch 37
+Validation Loss: 0.12948533631264578
+Epoch 38
+Validation Loss: 0.13005476039173486
+Epoch 39
+Validation Loss: 0.13051318238232856
+Traceback (most recent call last):
+  File "c:\Users\shaun\Documents\Projects\CNN_Model\Neuralnet.py", line 135, in <module>
+    new()
+  File "c:\Users\shaun\Documents\Projects\CNN_Model\Neuralnet.py", line 96, in new
+    epoch_data, loss_data, val_loss_data = train_model(train_dl, val_dl, f)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\shaun\Documents\Projects\CNN_Model\Neuralnet.py", line 90, in train_model
+    torch.save(f.state_dict(), model_file_path)
+  File "C:\Users\shaun\miniconda3\envs\project\Lib\site-packages\torch\serialization.py", line 849, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shaun\miniconda3\envs\project\Lib\site-packages\torch\serialization.py", line 716, in _open_zipfile_writer
+    return container(name_or_buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\shaun\miniconda3\envs\project\Lib\site-packages\torch\serialization.py", line 687, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Parent directory models does not exist.
