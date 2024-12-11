@@ -47,10 +47,12 @@ class MyNeuralNet(nn.Module):
         self.Matrix3 = nn.Linear(50,10)
         self.R = nn.ReLU()
     def forward(self,x):
+        print(f'Input shape: {x.shape}')
         x = x.view(-1,28**2)
         x = self.R(self.Matrix1(x))
         x = self.R(self.Matrix2(x))
         x = self.Matrix3(x)
+        print(f'Output shape: {x.shape}')
         return x.squeeze()
 
 f = MyNeuralNet()
@@ -71,6 +73,7 @@ def train_model(dl, val_dl, f, n_epochs=40):
         N = len(dl)
         epoch_loss = 0  # Initialize epoch loss
         for i, (x, y) in enumerate(dl):
+            print(f'Batch input shape: {x.shape}, Batch target shape: {y.shape}')
             # Update the weights of the network
             opt.zero_grad() 
             loss_value = L(f(x), y) 
